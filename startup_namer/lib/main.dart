@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+// import 'package:english_words/english_words.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,8 +15,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: Text('WordPair Generator')),
         body: Center(
-          child: Text('Hello World'),
+          child: Text('Hello'),
         )),
     );
+
   }
 }
