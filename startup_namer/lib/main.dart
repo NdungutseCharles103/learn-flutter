@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-// import 'package:english_words/english_words.dart';
+import 'package:english_words/english_words.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,6 +18,5 @@ class MyApp extends StatelessWidget {
           child: Text('Hello'),
         )),
     );
-
   }
 }
