@@ -1,7 +1,8 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, non_constant_identifier_names
 
+// import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
+import './random_words.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,11 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primaryColor: Colors.purple[900]),
-      home: Scaffold(
-        appBar: AppBar(title: Text('WordPair Generator')),
-        body: Center(
-          child: Text('Hello'),
-        )),
-    );
+      home: RandomWords());
   }
 }
+
